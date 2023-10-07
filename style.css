@@ -1,0 +1,111 @@
+ /* Paleta de colores
+       #29A744 verde hover nav
+       #96C93E verde boton enviar form
+       #1C3643 -  #1D5271 grad del footer   */
+
+:root{
+    --colorNav:#353A40;
+}    
+   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+.navbar{
+    height: 85px;
+    background-color: var(--colorNav) ; 
+}
+
+.me-5{
+    margin-right: 270px !important;
+}
+.navbar a:hover{
+    color:#29A744;   
+}
+.fotoBsas{
+    height: 550px;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.card-img-overlay {
+    margin-top: 20% !important;
+    margin-right: 9% !important;    
+    margin-left: 45% !important;    
+    color: white;
+}
+
+.btnOrador:hover{
+    background-color:#29A744 ;    
+}
+.btnComprar:hover{
+    background-color:#29A744 ;    
+}
+.card .btn{
+   font-size: .7em;
+   font-weight: 700;
+   padding: 0px 4px 0px !important;
+  
+}
+.react{
+    background-color: rgb(64, 176, 180);
+    color: white;
+}
+.negocios{
+    background-color: #636568;
+    color: white;
+}
+
+.oradores, .octubre p{
+    font-size: .8em;
+}
+.honolulu{
+    height: 380px;   
+    margin: 0px;
+
+}
+.octubre{
+    background-color: var(--colorNav);
+    color: white;    
+    height:380px ;
+    border-left: 1px solid white;
+}
+.btn-primary-outline {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+  }
+  .btn-success{
+    background-color:#29A744 ;
+  }
+section a{    
+    color: black;
+    text-decoration-style: dotted;    
+}
+
+form .btn{
+    background-color:#96C93E  ;
+    border: none;
+    width: 65%;
+}
+.form{
+     width: 99%;
+}
+footer{
+    background:linear-gradient(to right, #1C3643, #1D5271);      
+   }
+
+footer a{  
+    width: 150px; 
+    text-decoration: none !important;
+    color: white;
+    padding: 2%;
+}
+
+
+
+
+
+
