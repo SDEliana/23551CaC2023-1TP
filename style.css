@@ -104,6 +104,24 @@ footer a{
     padding: 2%;
 }
 
+/* Tickets estilos */
+.ticketsNav{
+        height: 35px;
+        background-color: var(--colorNav) ; 
+    }
+    .cards2{
+        margin-top: 70px;
+        border-radius: 0%;
+    }
+   
+    .total{
+        background-color: rgb(209, 233, 241);
+        width: 98%;
+    }
+
+
+
+
 
 
 
